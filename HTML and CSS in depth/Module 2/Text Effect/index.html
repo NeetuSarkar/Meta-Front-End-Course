@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .text {
+        width: 300px;
+        border: 2px solid brown;
+        white-space: nowrap;
+        overflow: hidden;
+        /* text-overflow: ellipsis; */
+        text-overflow: clip;
+      }
+
+      .text:hover {
+        overflow: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Text Ellipsis</h1>
+    <div class="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+      repudiandae odio mollitia illo vitae nulla quod consectetur voluptas, rem
+      veritatis incidunt sunt atque blanditiis! Obcaecati corrupti hic odit quod
+      officia!
+    </div>
+  </body>
+</html>
